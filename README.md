@@ -38,7 +38,7 @@ Ask your AI assistant things like:
 
 ## Prerequisites
 
-- **Node.js 18+** — [download](https://nodejs.org)
+- **Node.js 18+** — [download](https://nodejs.org) — OR — **Bun** — [download](https://bun.sh)
 - A Sleeper account is helpful but not required (the API is fully public)
 
 ## Installation
@@ -59,10 +59,12 @@ If the package is published to npm, you can use it directly without cloning anyt
 ```bash
 git clone https://github.com/yooitsgreg/sleeper-mcp.git
 cd sleeper-mcp
-npm install    # automatically runs the build step
+
+# pick your package manager:
+npm install   # or: pnpm install / yarn / bun install
 ```
 
-The `npm install` triggers a `prepare` hook that compiles TypeScript to `dist/`. No separate build step needed.
+The install triggers a `prepare` hook that compiles TypeScript to `dist/`. No separate build step needed.
 
 ## Configuration
 
