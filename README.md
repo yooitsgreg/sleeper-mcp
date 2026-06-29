@@ -72,19 +72,6 @@ Edit `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) o
 }
 ```
 
-Or with npx (no clone needed):
-
-```json
-{
-  "mcpServers": {
-    "sleeper": {
-      "command": "npx",
-      "args": ["-y", "sleeper-mcp"]
-    }
-  }
-}
-```
-
 ### Claude Code (CLI)
 
 Edit `~/.claude/claude.json`:

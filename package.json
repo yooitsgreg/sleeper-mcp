@@ -16,7 +16,7 @@
     "start": "node dist/index.js",
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
-    "prepare": "npm run build",
+    "prepare": "tsc",
     "clean": "rm -rf dist"
   },
   "engines": {
