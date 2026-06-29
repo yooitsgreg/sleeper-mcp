@@ -43,19 +43,6 @@ Ask your AI assistant things like:
 
 ## Installation
 
-### Option 1 — npx (no install needed)
-
-If the package is published to npm, you can use it directly without cloning anything:
-
-```json
-{
-  "command": "npx",
-  "args": ["-y", "sleeper-mcp"]
-}
-```
-
-### Option 2 — Clone and build
-
 ```bash
 git clone https://github.com/yooitsgreg/sleeper-mcp.git
 cd sleeper-mcp
