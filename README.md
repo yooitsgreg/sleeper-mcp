@@ -57,7 +57,7 @@ If the package is published to npm, you can use it directly without cloning anyt
 ### Option 2 — Clone and build
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sleeper-mcp.git
+git clone https://github.com/yooitsgreg/sleeper-mcp.git
 cd sleeper-mcp
 npm install    # automatically runs the build step
 ```
